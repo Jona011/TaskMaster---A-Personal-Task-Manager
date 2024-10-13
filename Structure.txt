@@ -1,0 +1,16 @@
+/taskmaster
+│
+├── /client           # Front-end code (React)
+│   ├── /src
+│   │   ├── /components  # React components (Navbar, TaskForm, TaskList)
+│   │   ├── App.js       # Main app file
+│   │   ├── index.js     # Entry point for React app
+│   ├── package.json     # Front-end dependencies
+│
+├── /server           # Back-end code (Node.js/Express)
+│   ├── /models       # Mongoose models (User, Task)
+│   ├── /routes       # API routes (auth, tasks)
+│   ├── app.js        # Express server setup
+│   ├── package.json  # Back-end dependencies
+│
+└── README.md         # Project documentation
